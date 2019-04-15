@@ -1,0 +1,9 @@
+CREATE TABLE chat (
+    chat_id serial primary key,
+	room varchar,
+	user_name varChar,
+	name varchar,
+	message  TEXT,
+	date_time TIMESTAMP
+);
+
